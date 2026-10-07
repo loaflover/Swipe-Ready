@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Swipe Ready Privacy Policy</title>
+<script>
+  try { const t = localStorage.getItem("plb.theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch {}
+</script>
+<style>
+:root { --bg: #edf0f3; --sheet: #fbfcfd; --ink: #15181c; --muted: #5b646e; --line: #d3d9df; --accent: #cf3326; color-scheme: light; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --bg: #0f1114; --sheet: #171a1f; --ink: #e8ebee; --muted: #949da7; --line: #2a3038; --accent: #ff5d4d; color-scheme: dark; }
+}
+:root[data-theme="dark"] { --bg: #0f1114; --sheet: #171a1f; --ink: #e8ebee; --muted: #949da7; --line: #2a3038; --accent: #ff5d4d; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; padding: 0 16px; padding-block: 24px 48px; }
+main { max-width: 680px; margin: 0 auto; background: var(--sheet); border: 1px solid var(--line); border-radius: 14px; padding: 22px; }
+h1 { font-size: 26px; line-height: 1.2; margin: 0 0 4px; text-wrap: balance; }
+h2 { font-size: 18px; margin: 28px 0 6px; }
+p, li { max-width: 65ch; }
+ul { padding-left: 20px; }
+.muted { color: var(--muted); font-size: 14px; }
+a { color: var(--accent); }
+.back { display: inline-block; margin-bottom: 14px; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Swipe Ready Privacy Policy</h1>
+  <p class="muted">Effective 6 October 2026</p>
+
+  <p>Swipe Ready reviews dating-profile photos with Google's Gemini AI. This policy explains what happens to your data. In short: we don't run servers, don't have accounts, and never receive your photos. Your photos go from your phone directly to Google for the review.</p>
+
+  <h2>What the app handles</h2>
+  <ul>
+    <li><b>Photos you choose</b>, including the optional "what you look like now" photo.</li>
+    <li><b>Text you enter</b>: your bio, private notes for the judge, and your settings (app, what you're looking for, and optionally your gender and orientation).</li>
+    <li><b>Your Gemini API key.</b></li>
+  </ul>
+
+  <h2>How it's used and shared</h2>
+  <ul>
+    <li><b>Google Gemini.</b> When you tap Review, your photos (resized), bio, notes and settings are sent directly from your device to the Google Gemini API, using your own API key, to produce the review. Google processes this under the <a href="https://ai.google.dev/gemini-api/terms">Gemini API Additional Terms</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. <b>On Gemini's free tier, Google may use what you send to improve its products, and human reviewers may read it.</b> Don't upload photos you aren't comfortable sharing with Google, and only upload photos of other people if they agree.</li>
+    <li><b>On your device.</b> Cropping, color edits and building downloads happen on your phone. Your API key is encrypted with the Android Keystore and never leaves your device except in requests to Google. Your settings and text are stored in the app on your phone. Full-size photos are kept only while the app is open, unless you save them to your Gallery or Downloads.</li>
+    <li><b>Past reviews.</b> Unless you turn it off (Advanced → Save reviews on this device), each finished review is saved in the app's private storage on your phone, with small thumbnails of the photos. Past reviews are never uploaded, synced or backed up. Delete them one by one, all at once from Past reviews, or by clearing the app's storage.</li>
+    <li><b>We (the developer) receive none of this.</b> There is no Swipe Ready server or account.</li>
+  </ul>
+
+  <h2>Advertising</h2>
+  <p>The app shows ads from Google AdMob. AdMob may collect your device's advertising ID, IP address and information about ad interactions to show and measure ads, as described in <a href="https://policies.google.com/technologies/ads">how Google uses information from apps that use its services</a>. In the EU, UK and Switzerland the app asks for your consent before personalized ads; you can change your choice from your device's ad settings, and you can reset or delete your advertising ID in Android settings. Your photos and text are never shared with advertisers.</p>
+
+  <h2>Crash reports</h2>
+  <p>If the app crashes, it saves a technical report on your phone (app version, Android version, phone model and error details: no photos, text or API key) and asks whether you want to send it. You choose the app and recipient. If Firebase Crashlytics is enabled in the app, the same technical crash details are sent to Google Firebase to help fix bugs.</p>
+
+  <h2>Children</h2>
+  <p>Swipe Ready is for adults (18+) using dating apps. It isn't directed at children, and we don't knowingly process children's data.</p>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li>Delete past reviews from the Past reviews panel, or everything stored by the app by uninstalling it, or with Android Settings → Apps → Swipe Ready → Storage → Clear storage.</li>
+    <li>Remove your API key from the AI engine settings, or revoke it in <a href="https://aistudio.google.com/apikey">Google AI Studio</a>.</li>
+    <li>For data Google holds, use <a href="https://myaccount.google.com/">your Google Account</a> or Google's privacy tools.</li>
+  </ul>
+
+  <h2>Changes and contact</h2>
+  <p>We'll update this page if the app's data practices change, with a new effective date. Questions or privacy requests: <a href="mailto:flataunir@gmail.com">flataunir@gmail.com</a>.</p>
+</main>
+</body>
+</html>
